@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen">
+    <tittle>Access Generator</tittle>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1 id="principal-tittle">Access Generator</h1>
+      <p id="second-tittle">This program will be created with the purpose of helping people access when necessary</p>
+      <button id="Generated Access">Generated Access</button>
+    </div class="container">
+    <br>
+    <div id="Personal Informations">
+      <label for="name">name</label>
+      <input type="text" name="name" id="name" required readonly><br>
+      <br>
+      <label for="LastName">LastName</label>
+      <input type="text" name="LastName" id="LastName" required readonly><br>
+      <br>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email" required readonly><br>
+    </div id="Personal Informations">
+
+    <div class="Questions">
+      <h1 id="tittle">Questions The Authentication</h1>
+      <p id="subtittle">Fill out this form to make a contribution </p>
+      <form id="Questions-Form">
+        <option selected disabled value="Selected">
+          <div id="Questions">
+            <options>Do You Have Pets?</options>
+            <input type="radio" name="yes" id="yes">
+            <div class="container">
+              <h3 id="Questions">Age groups</h3>
+              <form id="ageForm">
+                <label>
+                  <input type="radio" name="age" value="10+"> 10+
+                </label>
+          
+                <label>
+                  <input type="radio" name="age" value="20+"> 20+
+                </label>
+          
+                <label>
+                  <input type="radio" name="age" value="30+"> 30+
+                </label>
+          
+                <label>
+                  <input type="radio" name="age" value="40+"> 40+
+                </label>
+                
+                <button type="button" onclick="CheckAges()"></button>               
+              </form>
+              <p id="result final"></p>
+            </div>
+
+            <div id="Certifacate of Responsability">
+              <textarea row="6" style="width: 26em">
+                <form>
+                  <label for="Responsability-Certificate"><strong>Security</strong></label>
+                  <input type="text" id="Certifacate" name="Certifacate">
+                  <input type="submit" value="Submission">
+                </form>
+              </textarea>
+            </div id="Certifacate of Responsability">
+
+            <div id="FeedBack">
+              <textarea row="6" style="width: 100%"><strong>Leave your message here!</strong></textarea>
+              <button type="submit" class="Submission" id="Submission"></button>
+            </div id="FeedBack">
+        </form>
+      </div>
+      </option>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "projetoweb",
+  "version": "1.0.0",
+  "description": "Descrição do seu projeto",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": ["project", "web"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.27.1",
+    "babel-eslint": "^10.1.0",
+    "jest": "^27.0.6",
+    "react-test-renderer": "^17.0.2",
+    "Api":"GenerateKey.js",
+    "flask": "0.2.10"
+  }
+}
